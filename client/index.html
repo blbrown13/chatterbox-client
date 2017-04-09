@@ -26,11 +26,24 @@
   <body>
     <div id="main">
       <h1>chatterbox</h1>
+      <form id="choose-user-form" >
+        Choose your username:  
+        <input type="text" name="username-input" value="" >
+        <input type="submit"></input>
+      </form>
+      <form id="user-input-form" >
+        Enter your message here:  
+        <input type="text" name="message-input" value="" >
+        <input type="submit"></input>
+      </form>
       <!-- Your HTML goes here! -->
       <!-- <button type="button" onclick="alert('Hello world!')">Click Me!</button> -->
     </div>
     <div id="roomSelect">
       <h3>Room:</h3>
+      <input type="radio" name="room" value="room" checked> Room #1<br>
+      <input type="radio" name="room" value="room"> Room #2<br>
+      <input type="radio" name="room" value="room"> Room #3</form>
     </div>
 
     <div id="chats">
